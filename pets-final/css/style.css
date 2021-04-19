@@ -1,0 +1,487 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* MENU BAR */
+
+
+.nav-top {
+    width: 100%;
+    height: 90px;
+    background-color: #e1995d;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-top span {
+    width: 490px;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.top-item {
+    text-align: center;
+    font-size: 10px;
+    margin-top: 20px;
+    color: white;
+}
+
+.nav-bottom {
+    width: 934px;
+    height: 89px;
+    background-color: #d66f14;
+    position: absolute;
+    top: 60px;
+    left: calc(50% - 467px);
+}
+
+.bottom-item ul {
+    list-style-type: none;
+    padding-left: 0;
+    padding-right: 79px;
+}
+
+.logo {
+    font-size: 45px;
+    font-family: 'Fredoka One', cursive;
+    color: white;
+    float: left;
+    margin-left: 79px;
+    text-decoration: none;
+}
+
+.bottom-item ul li {
+    display: inline;
+    float: right;
+    padding-top: 17px;
+    padding-left: 50px;
+}
+
+.menu {
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+}
+
+
+/* MENU HOVER / CURRENT */
+
+
+.menu:hover, .logo:hover, .current {
+    color: #ffcda3;
+}
+
+/* HOME - HERO */
+
+.container {
+    width: 934px;
+}
+
+.home-hero {
+    width: 100%;
+    padding: 0;
+}
+
+.slogan {
+    position: absolute;
+    top: 400px;
+    color: white;
+    font-size: 35px;
+}
+
+/* HOME - CONTENT */
+
+.dot {
+    margin-top: -80px;
+    margin-left: 36.75px;
+    margin-right: 36.75px;
+    height: 160px;
+    width: 160px;
+    background-color: #cedd6b;
+    border-radius: 50%;
+}
+
+.home-icons {
+    width: 78px;
+    margin-left: 28px;
+    margin-top: 38px;
+}
+
+.home-circles {
+    margin-top: 35px;
+    margin-left: 1px;
+    text-align: center;
+}
+
+.home-circles a {
+    text-decoration: none;
+}
+
+.home-circles h2 {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    color: black;
+}
+
+
+/* HOME - GALLERY */
+
+
+.gallery-up {
+    height: 344px;
+    margin-top: 150px;
+}
+
+.gallery-down {
+    height: 344px;
+    margin-top: 250px;
+}
+
+.gallery-text {
+    margin-top: 160px;
+}
+
+.gallery-text span {
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.gallery-text p{
+    margin-top: 27px;
+    font-size: 20px;
+}
+
+
+/* HOME - GREEN */
+
+
+.home-green {
+    margin-top: 150px;
+    width: 100%;
+    height: 500px;
+    background-color: #cedd6b;
+}
+
+.home-green p{
+    margin-top: 90px;
+    font-size: 45px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+.orange-btn {
+    margin-top: 80px;
+}
+
+.more-btn {
+    background-color: #e1995d;
+    color: white;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+}
+
+.contact-btn {
+    background-color: #d66f14;
+    color: white;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+}
+
+.contact-btn:hover, .more-btn:hover {
+    color: #e4f18e;
+}
+
+
+/* BLOG */
+
+
+.hero-words {
+    color: white;
+    font-weight: bold;
+    font-size: 35px;
+    font-family: Arial, sans-serif;
+    margin-top: 130px;
+    text-align: center;
+}
+
+.blog-hero {
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+.blog-posts h2 {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 35px;
+}
+
+.blog-posts p {
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+.blog-cat, .blog-puppy {
+    margin-top: 222px;
+}
+
+.blog-dog {
+    margin-top: 100px;
+}
+
+.blog-dog, .blog-cat {
+    border: 5px solid white;
+}
+
+.blog-more {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.blog-more h4 {
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 5px;
+    text-decoration: none;
+}
+
+.blog-more a {
+    text-decoration: none;
+}
+
+.blog-more p {
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+    color: black;
+}
+
+.blog-btn {
+    margin-left: 480px;
+    background-color: #e1995d;
+    color: white;
+}
+
+.blog-btn:hover {
+    color: #d66f14;
+    background-color: #ffcda3;
+}
+
+
+/* ABOUT */
+
+
+.srvcs {
+    margin-top: 200px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: black;
+}
+
+.srvcs h1 {
+    font-weight: bold;
+}
+
+.srvcs-left {
+    text-align: right;
+}
+
+.srvcs-left, .srvcs-right {
+    margin-top: 50px;
+    font-size: 20px;
+    color: black;
+    font-family: Arial, sans-serif;
+}
+
+.srvcs-left p, .srvcs-right p {
+    margin-bottom: 40px;
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+    color: black;
+    font-weight: normal;
+}
+
+.srvcs-left + img {
+    height: 375px;
+    width: 302px;
+    margin-top: 55px;
+}
+
+.srvcs-btn {
+    background-color: #e1995d;
+    color: white;
+    font-size: 20px;
+}
+
+.srvcs-btn:hover {
+    background-color: #ffcda3;
+    color: #d66f14;
+}
+
+.srvcs-green {
+    margin-top: 70px;
+    margin-bottom: 50px;
+    width: 100%;
+    height: 135px;
+    background-color: #cedd6b;
+}
+
+.srvcs-green:nth-child(4) {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    padding-top: 45px;
+}
+
+.srvcs-first, .srvcs-second, .srvcs-third {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.srvcs-first {
+    margin-top: 140px;
+    text-align: left;
+}
+
+.srvcs-first p {
+    margin-bottom: 40px;
+    margin-top: 25px;
+}
+
+.srvcs-second, .srvcs-third{
+    background-color: #cedd6b;
+    width: 302px;
+}
+
+.srvcs-second h4, .srvcs-third h4 {
+    margin-top: 20px;
+    color: white;
+    font-size: 30px;
+}
+
+.srvcs-second p, .srvcs-third p {
+    color: white;
+    margin-bottom: 25px;
+    margin-top: 20px;
+}
+
+.srvcs-second {
+    height: 395px;
+    margin-top: 80px;
+    margin-right: 15px;
+}
+
+.srvcs-third {
+    height: 444px;
+    margin-top: 55px;
+}
+
+
+/* SERVICES */
+
+
+.about-text {
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    color: black;
+    text-align: center;
+}
+
+.about-dots {
+    margin-top: 150px;
+}
+
+.about-more {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+.about-mail {
+    font-size: 15px;
+}
+
+.about-green {
+    margin-top: 180px;
+}
+
+.about-mail input {
+    width: 290px;
+    height: 45px;
+}
+
+
+/* FOOTER */
+
+
+.footer {
+    margin-top: 200px;
+    height: 384px;
+    width: 100%;
+    background-color: #d66f14;
+}
+
+.logo-footer {
+    margin-top: 40px;
+    margin-left: 0;
+}
+
+.footer-contact {
+    margin-top: 150px;
+}
+
+.footer-contact p {
+    color: white;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.footer-contact + p {
+    margin-top: 50px;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.footer-info {
+    text-align: right;
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+.footer-info a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-info a:hover {
+    color: #ffcda3;
+}
+
+.footer-icon {
+    width: 60px;
+    margin-left: 20px;
+}
+
+.footer-icons {
+    margin-left: 194px;
+    margin-top: 30px;
+}
+
+
+
+
